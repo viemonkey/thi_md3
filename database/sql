@@ -1,0 +1,11 @@
+CREATE DATABASE thi_md3;
+USE thi_md3;
+CREATE TABLE homestay(
+    homestayId INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    homestayName VARCHAR(255) NOT NULL,
+    city VARCHAR(255) NOT NULL,
+    numberBedroom INT NOT NULL,
+    price INT NOT NULL,
+    numberToilet INT NOT NULL,
+    description VARCHAR(255) NOT NULL
+);
